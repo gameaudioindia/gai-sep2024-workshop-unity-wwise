@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74CE5639-4E1B-4D02-AEAF-1856308AFA10}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{74CE5639-4E1B-4D02-AEAF-1856308AFA10}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="fs_states" ID="{4D031738-D65B-4308-9F2A-A34D2DFE74F4}">
+					<ChildrenList>
+						<State Name="None" ID="{D0FD09C5-E6C8-48F6-B65C-E51C6B19511B}"/>
+						<State Name="gravel" ID="{600EC10F-C85E-46A0-A2B3-7FE0784085EA}"/>
+						<State Name="grass" ID="{FB7A183E-CF6F-41F6-92EE-A5FCB53EC71D}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

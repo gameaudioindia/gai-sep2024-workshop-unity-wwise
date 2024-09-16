@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3056B19B-11D6-8EB4-5BBA-02940310B8FC}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="1502772432" Name="SFX Bus"/>
+				<Bus Id="2833159698" Name="Environment Bus"/>
+				<Bus Id="3127962312" Name="Music Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2682991203" Name="amb_RTPC"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3568375813" Name="fs_states">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2185786256" Name="gravel"/>
+						<State Id="4248645337" Name="grass"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="45898700" Name="fsSwitch">
+					<Switches>
+						<Switch Id="2185786256" Name="gravel"/>
+						<Switch Id="4248645337" Name="grass"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2724869341" Name="music_switch">
+					<Switches>
+						<Switch Id="545371365" Name="low"/>
+						<Switch Id="3550808449" Name="high"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{FEE9DCDF-8E50-113D-CA01-9A75CE1FDB55}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="5218488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_fs_04.wav</ShortName>
+					<CachePath>SFX/enemy_fs_04_6CC256B8.wem</CachePath>
+				</File>
+				<File Id="20555204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_gravel_05.wav</ShortName>
+					<CachePath>SFX/player_fs_gravel_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="44586815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_walljump_land_02.wav</ShortName>
+					<CachePath>SFX/player_walljump_land_02_0FD9EDB2.wem</CachePath>
+				</File>
+				<File Id="67574127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_day.wav</ShortName>
+					<CachePath>SFX/amb_day_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="80134937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_attack_swordslash_03.wav</ShortName>
+					<CachePath>SFX/enemy_attack_swordslash_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="83672665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_fs_05.wav</ShortName>
+					<CachePath>SFX/enemy_fs_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="110112855" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_fs_01.wav</ShortName>
+					<CachePath>SFX/enemy_fs_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="127555650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_attack_swordslash_02.wav</ShortName>
+					<CachePath>SFX/enemy_attack_swordslash_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="141194251" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_fs_06.wav</ShortName>
+					<CachePath>SFX/enemy_fs_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="143978970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_stone_01.wav</ShortName>
+					<CachePath>SFX/hit_sword_stone_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="160413419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_fs_03.wav</ShortName>
+					<CachePath>SFX/enemy_fs_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="167254450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_grass_03.wav</ShortName>
+					<CachePath>SFX/hit_sword_grass_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="168077195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_gravel_06.wav</ShortName>
+					<CachePath>SFX/player_fs_gravel_06_65EB625E.wem</CachePath>
+				</File>
+				<File Id="171648488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_enemy_02.wav</ShortName>
+					<CachePath>SFX/hit_sword_enemy_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="172209242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_grass_04.wav</ShortName>
+					<CachePath>SFX/player_fs_grass_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="177312317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_grass_05.wav</ShortName>
+					<CachePath>SFX/player_fs_grass_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="236914719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_jump_land_02.wav</ShortName>
+					<CachePath>SFX/player_jump_land_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="243388247" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music_explore_loop_low.wav</ShortName>
+					<CachePath>SFX/music_explore_loop_low_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="261414660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_attack_swordslash_02.wav</ShortName>
+					<CachePath>SFX/player_attack_swordslash_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="275884841" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_enemy_03.wav</ShortName>
+					<CachePath>SFX/hit_sword_enemy_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="278359908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_death.wav</ShortName>
+					<CachePath>SFX/player_death_818F3B66.wem</CachePath>
+				</File>
+				<File Id="281106954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>attack_projectile_01.wav</ShortName>
+					<CachePath>SFX/attack_projectile_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="301105223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_player_02.wav</ShortName>
+					<CachePath>SFX/hit_sword_player_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="335724132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_jump_land_01.wav</ShortName>
+					<CachePath>SFX/player_jump_land_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="369737279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_movement_grass_01.wav</ShortName>
+					<CachePath>SFX/player_movement_grass_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="378516963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_grass_01.wav</ShortName>
+					<CachePath>SFX/hit_sword_grass_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="392606342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_movement_grass_03.wav</ShortName>
+					<CachePath>SFX/player_movement_grass_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="408966741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_gravel_04.wav</ShortName>
+					<CachePath>SFX/player_fs_gravel_04_6D8967A9.wem</CachePath>
+				</File>
+				<File Id="443679895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_grass_01.wav</ShortName>
+					<CachePath>SFX/player_fs_grass_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="468834215" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_grass_02.wav</ShortName>
+					<CachePath>SFX/player_fs_grass_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="470743450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_stone_03.wav</ShortName>
+					<CachePath>SFX/hit_sword_stone_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="505812711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_death.wav</ShortName>
+					<CachePath>SFX/enemy_death_818F3B66.wem</CachePath>
+				</File>
+				<File Id="546572714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_night.wav</ShortName>
+					<CachePath>SFX/amb_night_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="562543764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_movement_grass_02.wav</ShortName>
+					<CachePath>SFX/player_movement_grass_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="572961596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_walljump_land_01.wav</ShortName>
+					<CachePath>SFX/player_walljump_land_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="602875223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_gravel_03.wav</ShortName>
+					<CachePath>SFX/player_fs_gravel_03_8C806428.wem</CachePath>
+				</File>
+				<File Id="604376969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_projectile_02.wav</ShortName>
+					<CachePath>SFX/hit_projectile_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="628302057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music_explore_loop_high.wav</ShortName>
+					<CachePath>SFX/music_explore_loop_high_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="634822657" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_walljump_slide_loop_02.wav</ShortName>
+					<CachePath>SFX/player_walljump_slide_loop_02_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="648429663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_enemy_01.wav</ShortName>
+					<CachePath>SFX/hit_sword_enemy_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="694486892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_attack_swordslash_03.wav</ShortName>
+					<CachePath>SFX/player_attack_swordslash_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="701722428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_grass_02.wav</ShortName>
+					<CachePath>SFX/hit_sword_grass_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="734690752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_attack_swordslash_01.wav</ShortName>
+					<CachePath>SFX/player_attack_swordslash_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="771344133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_grass_03.wav</ShortName>
+					<CachePath>SFX/player_fs_grass_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="845660640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_fs_02.wav</ShortName>
+					<CachePath>SFX/enemy_fs_02_BE3F1CDE.wem</CachePath>
+				</File>
+				<File Id="880979378" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_gravel_01.wav</ShortName>
+					<CachePath>SFX/player_fs_gravel_01_720BD28B.wem</CachePath>
+				</File>
+				<File Id="924134250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemy_attack_swordslash_01.wav</ShortName>
+					<CachePath>SFX/enemy_attack_swordslash_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="930887132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_stone_02.wav</ShortName>
+					<CachePath>SFX/hit_sword_stone_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="952035272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_gravel_02.wav</ShortName>
+					<CachePath>SFX/player_fs_gravel_02_07B4AE5A.wem</CachePath>
+				</File>
+				<File Id="954311714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_jump.wav</ShortName>
+					<CachePath>SFX/player_jump_818F3B66.wem</CachePath>
+				</File>
+				<File Id="954387430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_dash.wav</ShortName>
+					<CachePath>SFX/player_dash_818F3B66.wem</CachePath>
+				</File>
+				<File Id="958866435" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_walljump_land_03.wav</ShortName>
+					<CachePath>SFX/player_walljump_land_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="997116514" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_player_01.wav</ShortName>
+					<CachePath>SFX/hit_sword_player_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1010042230" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_fs_grass_06.wav</ShortName>
+					<CachePath>SFX/player_fs_grass_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1046618499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_projectile_01.wav</ShortName>
+					<CachePath>SFX/hit_projectile_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1072099985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_sword_player_03.wav</ShortName>
+					<CachePath>SFX/hit_sword_player_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="85412153" Name="ambience">
+					<MediaRefs>
+						<MediaRef Id="67574127"/>
+						<MediaRef Id="546572714"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="384478785" Name="attack_projectile_01" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="281106954"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3727278191" Name="enemy_attack_swordslash" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="80134937"/>
+						<MediaRef Id="127555650"/>
+						<MediaRef Id="924134250"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1205999388" Name="enemy_death" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="505812711"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="131181555" Name="enemy_fs" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="5218488"/>
+						<MediaRef Id="83672665"/>
+						<MediaRef Id="110112855"/>
+						<MediaRef Id="141194251"/>
+						<MediaRef Id="160413419"/>
+						<MediaRef Id="845660640"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="683359350" Name="hit_projectile" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="604376969"/>
+						<MediaRef Id="1046618499"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1236431331" Name="hit_sword_enemy" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="171648488"/>
+						<MediaRef Id="648429663"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1930230741" Name="hit_sword_enemy_finalhit" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="275884841"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="252147029" Name="hit_sword_grass" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="167254450"/>
+						<MediaRef Id="378516963"/>
+						<MediaRef Id="701722428"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2542764310" Name="hit_sword_player" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="301105223"/>
+						<MediaRef Id="997116514"/>
+						<MediaRef Id="1072099985"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2753907392" Name="hit_sword_stone" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="143978970"/>
+						<MediaRef Id="930887132"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="287650880" Name="hit_sword_stone_break" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="470743450"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="983364109" Name="movement_grass" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="369737279"/>
+						<MediaRef Id="392606342"/>
+						<MediaRef Id="562543764"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3991942870" Name="music">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2724869341" Id="3550808449"/>
+							<MediaRefs>
+								<MediaRef Id="628302057"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2724869341" Id="545371365"/>
+							<MediaRefs>
+								<MediaRef Id="243388247"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="681778830" Name="player_attack_swordslash" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="261414660"/>
+						<MediaRef Id="694486892"/>
+						<MediaRef Id="734690752"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2394582229" Name="player_dash" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="954387430"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3083087645" Name="player_death" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="278359908"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4276063004" Name="player_fs" MaxAttenuation="100">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="45898700" Id="2185786256" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="20555204"/>
+								<MediaRef Id="168077195"/>
+								<MediaRef Id="408966741"/>
+								<MediaRef Id="602875223"/>
+								<MediaRef Id="880979378"/>
+								<MediaRef Id="952035272"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="45898700" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="172209242"/>
+								<MediaRef Id="177312317"/>
+								<MediaRef Id="443679895"/>
+								<MediaRef Id="468834215"/>
+								<MediaRef Id="771344133"/>
+								<MediaRef Id="1010042230"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1305133589" Name="player_jump" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="954311714"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="124933559" Name="player_jump_land" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="236914719"/>
+						<MediaRef Id="335724132"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1514221979" Name="player_walljump_land" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="44586815"/>
+						<MediaRef Id="572961596"/>
+						<MediaRef Id="958866435"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1495030864" Name="player_walljump_slide_loop" MaxAttenuation="100">
+					<MediaRefs>
+						<MediaRef Id="634822657"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3434554229" Name="stop_player_walljump_slide_loop" MaxAttenuation="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="2682991203" Name="amb_RTPC"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="45898700" Name="fsSwitch">
+					<Switches>
+						<Switch Id="2185786256" Name="gravel"/>
+						<Switch Id="4248645337" Name="grass"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2724869341" Name="music_switch">
+					<Switches>
+						<Switch Id="545371365" Name="low"/>
+						<Switch Id="3550808449" Name="high"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FC85CAEB-19EE-5234-1E86-9C9560481577}</FileHash>
+</SoundBanksInfo>

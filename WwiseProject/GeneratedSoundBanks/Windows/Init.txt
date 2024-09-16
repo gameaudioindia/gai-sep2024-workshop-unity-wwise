@@ -1,0 +1,18 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3568375813	fs_states			\Default Work Unit\fs_states	
+
+State	ID	Name	State Group			Notes
+	748895195	None	fs_states			
+	2185786256	gravel	fs_states			
+	4248645337	grass	fs_states			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1502772432	SFX Bus			\Default Work Unit\Master Audio Bus\SFX Bus	
+	2833159698	Environment Bus			\Default Work Unit\Master Audio Bus\Environment Bus	
+	3127962312	Music Bus			\Default Work Unit\Master Audio Bus\Music Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

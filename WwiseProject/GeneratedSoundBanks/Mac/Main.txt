@@ -1,0 +1,96 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85412153	ambience			\SFXEvents\ambience	
+	124933559	player_jump_land			\SFXEvents\player_jump_land	
+	131181555	enemy_fs			\SFXEvents\enemy_fs	
+	252147029	hit_sword_grass			\SFXEvents\hit_sword_grass	
+	287650880	hit_sword_stone_break			\SFXEvents\hit_sword_stone_break	
+	384478785	attack_projectile_01			\SFXEvents\attack_projectile_01	
+	681778830	player_attack_swordslash			\SFXEvents\player_attack_swordslash	
+	683359350	hit_projectile			\SFXEvents\hit_projectile	
+	983364109	movement_grass			\SFXEvents\movement_grass	
+	1205999388	enemy_death			\SFXEvents\enemy_death	
+	1236431331	hit_sword_enemy			\SFXEvents\hit_sword_enemy	
+	1305133589	player_jump			\SFXEvents\player_jump	
+	1495030864	player_walljump_slide_loop			\SFXEvents\player_walljump_slide_loop	
+	1514221979	player_walljump_land			\SFXEvents\player_walljump_land	
+	1930230741	hit_sword_enemy_finalhit			\SFXEvents\hit_sword_enemy_finalhit	
+	2394582229	player_dash			\SFXEvents\player_dash	
+	2542764310	hit_sword_player			\SFXEvents\hit_sword_player	
+	2753907392	hit_sword_stone			\SFXEvents\hit_sword_stone	
+	3083087645	player_death			\SFXEvents\player_death	
+	3434554229	stop_player_walljump_slide_loop			\SFXEvents\stop_player_walljump_slide_loop	
+	3727278191	enemy_attack_swordslash			\SFXEvents\enemy_attack_swordslash	
+	3991942870	music			\MusicEvents\music	
+	4276063004	player_fs			\SFXEvents\player_fs	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	45898700	fsSwitch			\Default Work Unit\fsSwitch	
+	2724869341	music_switch			\Default Work Unit\music_switch	
+
+Switch	ID	Name	Switch Group			Notes
+	2185786256	gravel	fsSwitch			
+	4248645337	grass	fsSwitch			
+	545371365	low	music_switch			
+	3550808449	high	music_switch			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2682991203	amb_RTPC			\Default Work Unit\amb_RTPC	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5218488	enemy_fs_04	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_fs_04_6CC256B8.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_fs\enemy_fs_04		18504
+	20555204	player_fs_gravel_05	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_gravel_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_gravel\player_fs_gravel_05		211776
+	44586815	player_walljump_land_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_walljump_land_02_0FD9EDB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_walljump_land\player_walljump_land_02		16304
+	67574127	amb_day	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\amb_day_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambience\ambience\amb_day		3386976
+	80134937	enemy_attack_swordslash_03	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_attack_swordslash_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_attack_swordslash\enemy_attack_swordslash_03		105936
+	83672665	enemy_fs_05	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_fs_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_fs\enemy_fs_05		211776
+	110112855	enemy_fs_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_fs_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_fs\enemy_fs_01		211776
+	127555650	enemy_attack_swordslash_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_attack_swordslash_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_attack_swordslash\enemy_attack_swordslash_02		105936
+	141194251	enemy_fs_06	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_fs_06_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_fs\enemy_fs_06		211776
+	143978970	hit_sword_stone_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_stone_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_stone\hit_sword_stone_01		119168
+	160413419	enemy_fs_03	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_fs_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_fs\enemy_fs_03		211776
+	167254450	hit_sword_grass_03	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_grass_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_grass\hit_sword_grass_03		144112
+	168077195	player_fs_gravel_06	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_gravel_06_65EB625E.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_gravel\player_fs_gravel_06		211012
+	171648488	hit_sword_enemy_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_enemy_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_enemy\hit_sword_enemy_02		105936
+	172209242	player_fs_grass_04	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_grass_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_grass\player_fs_grass_04		211776
+	177312317	player_fs_grass_05	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_grass_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_grass\player_fs_grass_05		211776
+	236914719	player_jump_land_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_jump_land_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_jump_land\player_jump_land_02		105936
+	243388247	music_explore_loop_low	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\music_explore_loop_low_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\music\music_explore_loop_low\music_explore_loop_low\music_explore_loop_low		11780552
+	261414660	player_attack_swordslash_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_attack_swordslash_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_attack_swordslash\player_attack_swordslash_02		79476
+	275884841	hit_sword_enemy_finalhit	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_enemy_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_enemy_finalhit		80368
+	278359908	player_death	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_death_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_death		105936
+	281106954	attack_projectile_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\attack_projectile_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\attack_projectile_01		92708
+	301105223	hit_sword_player_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_player_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_player\hit_sword_player_02		51496
+	335724132	player_jump_land_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_jump_land_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_jump_land\player_jump_land_01		105936
+	369737279	player_movement_grass_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_movement_grass_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_movement_grass\player_movement_grass_01		317616
+	378516963	hit_sword_grass_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_grass_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_grass\hit_sword_grass_01		132396
+	392606342	player_movement_grass_03	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_movement_grass_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_movement_grass\player_movement_grass_03		291156
+	408966741	player_fs_gravel_04	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_gravel_04_6D8967A9.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_gravel\player_fs_gravel_04		22692
+	443679895	player_fs_grass_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_grass_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_grass\player_fs_grass_01		211776
+	468834215	player_fs_grass_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_grass_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_grass\player_fs_grass_02		211776
+	470743450	hit_sword_stone_break	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_stone_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_stone_break		136304
+	505812711	enemy_death	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_death_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_death		72864
+	546572714	amb_night	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\amb_night_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambience\ambience\amb_night		3386976
+	562543764	player_movement_grass_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_movement_grass_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_movement_grass\player_movement_grass_02		317616
+	572961596	player_walljump_land_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_walljump_land_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_walljump_land\player_walljump_land_01		101788
+	602875223	player_fs_gravel_03	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_gravel_03_8C806428.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_gravel\player_fs_gravel_03		211140
+	604376969	hit_projectile_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_projectile_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_projectile\hit_projectile_02		115068
+	628302057	music_explore_loop_high	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\music_explore_loop_high_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\music\music_explore_loop_high\music_explore_loop_high\music_explore_loop_high		11780552
+	634822657	player_walljump_slide_loop	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_walljump_slide_loop_02_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_walljump_slide_loop		846816
+	648429663	hit_sword_enemy_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_enemy_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_enemy\hit_sword_enemy_01		59632
+	694486892	player_attack_swordslash_03	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_attack_swordslash_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_attack_swordslash\player_attack_swordslash_03		105936
+	701722428	hit_sword_grass_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_grass_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_grass\hit_sword_grass_02		112552
+	734690752	player_attack_swordslash_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_attack_swordslash_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_attack_swordslash\player_attack_swordslash_01		92708
+	771344133	player_fs_grass_03	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_grass_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_grass\player_fs_grass_03		211776
+	845660640	enemy_fs_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_fs_02_BE3F1CDE.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_fs\enemy_fs_02		20200
+	880979378	player_fs_gravel_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_gravel_01_720BD28B.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_gravel\player_fs_gravel_01		210980
+	924134250	enemy_attack_swordslash_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\enemy_attack_swordslash_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemy\enemy_attack_swordslash\enemy_attack_swordslash_01		105936
+	930887132	hit_sword_stone_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_stone_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_stone\hit_sword_stone_02		105936
+	952035272	player_fs_gravel_02	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_gravel_02_07B4AE5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_gravel\player_fs_gravel_02		15612
+	954311714	player_jump	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_jump_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_jump		105936
+	954387430	player_dash	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_dash_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_dash		105936
+	958866435	player_walljump_land_03	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_walljump_land_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_walljump_land\player_walljump_land_03		105936
+	997116514	hit_sword_player_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_player_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_player\hit_sword_player_01		105936
+	1010042230	player_fs_grass_06	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\player_fs_grass_06_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_fs\player_fs_grass\player_fs_grass_06		211776
+	1046618499	hit_projectile_01	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_projectile_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_projectile\hit_projectile_01		115068
+	1072099985	hit_sword_player_03	Y:\ZEDEKI\GAIWorkshop\GAI_September2024_WwiseUnity_WwiseProject\.cache\Mac\SFX\hit_sword_player_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\common\hit_sword_player\hit_sword_player_03		103004
+

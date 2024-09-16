@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{45F24C2F-F879-4FE9-BB8C-6E253FEEF523}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="MusicEvents" ID="{45F24C2F-F879-4FE9-BB8C-6E253FEEF523}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="music" ID="{99D79231-2ED4-4B74-9B73-8F678B1DA84B}">
+					<ChildrenList>
+						<Action Name="" ID="{69066FF7-1B25-47C6-A3D3-D98242807F81}" ShortID="420171673">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music" ID="{C6B70B67-D9DF-4190-85AB-74A6AADEAC79}" WorkUnitID="{69C0B86D-85C7-44CF-9E12-E1E99E970B5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

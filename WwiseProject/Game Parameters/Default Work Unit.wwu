@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1878022-EA52-48F4-B215-9455F358152B}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{A1878022-EA52-48F4-B215-9455F358152B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="amb_RTPC" ID="{B8214EE2-CDC7-4F6B-BF56-66F552E95BF0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="6.7"/>
+						<Property Name="Max" Type="Real64" Value="42"/>
+						<Property Name="Min" Type="Real64" Value="-8.5"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

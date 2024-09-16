@@ -1,0 +1,2089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C8D44590-9E46-4D41-88BF-3371114971E9}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{C8D44590-9E46-4D41-88BF-3371114971E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="player" ID="{A5DDE942-4222-45A0-9870-B4A1EC2B33BF}" ShortID="367594568">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="player_attack_swordslash" ID="{B87651C7-E4B2-4BB5-B182-678A243B24B2}" ShortID="623579624">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="player_attack_swordslash_01" ID="{A740A9D0-800D-450A-BE4E-3A6794C765E7}" ShortID="287237999">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_attack_swordslash_01" ID="{99E9ED92-B9CA-42E1-A07D-08135F921E0E}">
+											<Language>SFX</Language>
+											<AudioFile>player_attack_swordslash_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="734690752"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_attack_swordslash_01" ID="{99E9ED92-B9CA-42E1-A07D-08135F921E0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_attack_swordslash_02" ID="{76892B75-9984-4E93-B388-BA4D160ABDE2}" ShortID="869381761">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_attack_swordslash_02" ID="{5E5F8A3A-92A4-4DE7-BACE-98274837D423}">
+											<Language>SFX</Language>
+											<AudioFile>player_attack_swordslash_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="261414660"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_attack_swordslash_02" ID="{5E5F8A3A-92A4-4DE7-BACE-98274837D423}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_attack_swordslash_03" ID="{7D2DCC2E-3162-4CA6-B0E2-1D346E1E9FA3}" ShortID="496196578">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_attack_swordslash_03" ID="{99F1BB6B-88CE-47D6-8FCD-30F9D0838C6F}">
+											<Language>SFX</Language>
+											<AudioFile>player_attack_swordslash_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="694486892"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_attack_swordslash_03" ID="{99F1BB6B-88CE-47D6-8FCD-30F9D0838C6F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="player_jump_land" ID="{C83CC494-B8A8-477A-A93B-D8B9D6594A35}" ShortID="928728112">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="player_jump_land_01" ID="{566C3890-F522-4083-8EE4-082D94FBE76C}" ShortID="390117523">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_jump_land_01" ID="{8DBCB63C-A381-4425-A20E-59962D9BE0C1}">
+											<Language>SFX</Language>
+											<AudioFile>player_jump_land_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335724132"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_jump_land_01" ID="{8DBCB63C-A381-4425-A20E-59962D9BE0C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_jump_land_02" ID="{AD92E2A1-07B7-4D15-9240-20CF6DEAA8A8}" ShortID="759248486">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_jump_land_02" ID="{4EAE5D26-7CA2-4CEE-9269-15AF966A6FE3}">
+											<Language>SFX</Language>
+											<AudioFile>player_jump_land_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="236914719"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_jump_land_02" ID="{4EAE5D26-7CA2-4CEE-9269-15AF966A6FE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="player_movement_grass" ID="{CD8936A2-CE5A-480F-AD39-FE2706524820}" ShortID="490686606">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="player_movement_grass_01" ID="{3F71EAF8-7F31-4B43-8D73-1D96897B551D}" ShortID="168775495">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_movement_grass_01" ID="{4D9CE459-D18A-4531-A951-30D97093495E}">
+											<Language>SFX</Language>
+											<AudioFile>player_movement_grass_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="369737279"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_movement_grass_01" ID="{4D9CE459-D18A-4531-A951-30D97093495E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_movement_grass_02" ID="{EE788E3F-117A-4451-9B08-5878366366AA}" ShortID="474012692">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_movement_grass_02" ID="{905E8EEC-9507-451F-BFC0-3CFC2029CFFC}">
+											<Language>SFX</Language>
+											<AudioFile>player_movement_grass_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="562543764"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_movement_grass_02" ID="{905E8EEC-9507-451F-BFC0-3CFC2029CFFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_movement_grass_03" ID="{1884BA8A-75DF-4D98-BF2B-22C4DD8F375B}" ShortID="530610174">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_movement_grass_03" ID="{58AC282F-C66C-48E4-AE97-72B3B6D9B64E}">
+											<Language>SFX</Language>
+											<AudioFile>player_movement_grass_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="392606342"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_movement_grass_03" ID="{58AC282F-C66C-48E4-AE97-72B3B6D9B64E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="player_walljump_land" ID="{F901EBB3-AC18-4887-A35F-67493715EFA5}" ShortID="258068281">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>17</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-150</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="player_walljump_land_01" ID="{C8C61758-8490-43D3-8265-49454BB198EE}" ShortID="495388886">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_walljump_land_01" ID="{5D242798-6CA0-4F76-8FD2-EC40698B6368}">
+											<Language>SFX</Language>
+											<AudioFile>player_walljump_land_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="572961596"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_walljump_land_01" ID="{5D242798-6CA0-4F76-8FD2-EC40698B6368}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_walljump_land_02" ID="{7F27A177-6C8D-4158-B89A-DEE8C4605399}" ShortID="721907770">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_walljump_land_02" ID="{8AB5CBDB-1485-43C3-A5B2-0454A06F96CC}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0638657076418678"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0918769829233889"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>player_walljump_land_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="44586815"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_walljump_land_02" ID="{8AB5CBDB-1485-43C3-A5B2-0454A06F96CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_walljump_land_03" ID="{4DA49BC3-9D29-40DC-A23A-39DD2C548C3D}" ShortID="103061770">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_walljump_land_03" ID="{8117E66D-89A4-4137-A470-8D05E1597D24}">
+											<Language>SFX</Language>
+											<AudioFile>player_walljump_land_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="958866435"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_walljump_land_03" ID="{8117E66D-89A4-4137-A470-8D05E1597D24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="player_fs" ID="{0F50D3E7-B515-4617-A61C-FBA5F99CFC46}" ShortID="178627239">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="gravel" ID="{34F6BC2C-7E25-443A-B2ED-DEFD027D58C9}" WorkUnitID="{0D4A0D66-F201-48CB-B30D-72B65592FB33}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="fsSwitch" ID="{0ED4E868-A96F-4DE3-A191-187746B86DC4}" WorkUnitID="{0D4A0D66-F201-48CB-B30D-72B65592FB33}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="player_fs_grass" ID="{654599B7-E6D4-44D5-8AB1-D227021A8CAC}" ShortID="59674302">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="player_fs_grass_01" ID="{7B88029C-F2D8-4895-A7EB-DBF232D5FBF3}" ShortID="571520517">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_grass_01" ID="{A32CEF0D-0622-4E21-99DC-031F18C27002}">
+													<Language>SFX</Language>
+													<AudioFile>player_fs_grass_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="443679895"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_grass_01" ID="{A32CEF0D-0622-4E21-99DC-031F18C27002}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_grass_02" ID="{1C8D2D8B-99F2-4F79-ADDD-C9DA935C16B6}" ShortID="363668087">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_grass_02" ID="{6AC08F6B-FF0D-49EC-AD19-34A6A054C4B2}">
+													<Language>SFX</Language>
+													<AudioFile>player_fs_grass_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="468834215"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_grass_02" ID="{6AC08F6B-FF0D-49EC-AD19-34A6A054C4B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_grass_03" ID="{1B204849-40AF-4193-ABCA-86E99CF63653}" ShortID="624297009">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_grass_03" ID="{56216BFF-D4E5-47CF-BAAF-C4B9E258FA4C}">
+													<Language>SFX</Language>
+													<AudioFile>player_fs_grass_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="771344133"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_grass_03" ID="{56216BFF-D4E5-47CF-BAAF-C4B9E258FA4C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_grass_04" ID="{223874EE-59D2-4F8F-AE3E-AF66ABB892D3}" ShortID="83194887">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_grass_04" ID="{7112DAA8-3EBA-4FC2-808C-38FC0FB38EA4}">
+													<Language>SFX</Language>
+													<AudioFile>player_fs_grass_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="172209242"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_grass_04" ID="{7112DAA8-3EBA-4FC2-808C-38FC0FB38EA4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_grass_05" ID="{D61CA1E4-08E9-4DED-98B1-8C77C04203C3}" ShortID="614809383">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_grass_05" ID="{D056D4A4-6449-4189-B434-F57611AE3C44}">
+													<Language>SFX</Language>
+													<AudioFile>player_fs_grass_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="177312317"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_grass_05" ID="{D056D4A4-6449-4189-B434-F57611AE3C44}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_grass_06" ID="{78F5F518-4FEE-481E-A3BE-35A7E68FC4F8}" ShortID="75267134">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_grass_06" ID="{3FE18604-8603-4FA5-AC0D-1F332A0AD2E0}">
+													<Language>SFX</Language>
+													<AudioFile>player_fs_grass_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1010042230"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_grass_06" ID="{3FE18604-8603-4FA5-AC0D-1F332A0AD2E0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="player_fs_gravel" ID="{A69482B7-422B-4B9D-B68D-9D16F0032B78}" ShortID="117982736">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-100</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{427E6E16-E662-43D9-85F0-4BC90E9238EA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E2BFE116-C7AD-4C5A-837D-B3DB2309BAEE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="player_fs_gravel_01" ID="{B60981B8-408D-4426-A3BE-C7A8791A40BA}" ShortID="815802358">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_gravel_01" ID="{FE013878-F7D3-4577-89FD-B1D48D11AE33}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.002"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00451447817170422"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>player_fs_gravel_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="880979378"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_gravel_01" ID="{FE013878-F7D3-4577-89FD-B1D48D11AE33}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_gravel_02" ID="{50D3874F-FB0F-408D-9BF1-3A19CB352036}" ShortID="153471176">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-50</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_gravel_02" ID="{B690C4CF-F380-4B76-B93F-5A0028378607}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00200292348217944"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0450594734312775"/>
+														<Property Name="FadeOutShape" Type="int16" Value="3"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00600877044653832"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.093972516909538"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>player_fs_gravel_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="952035272"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_gravel_02" ID="{B690C4CF-F380-4B76-B93F-5A0028378607}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_gravel_03" ID="{FCC795E1-6DCA-45B1-8C5E-64FE2CC42271}" ShortID="233183832">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-150</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_gravel_03" ID="{E0473A8E-D8CE-42C2-B13F-29023A9BB06B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.002"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00360526226792299"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00360526226792299"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>player_fs_gravel_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="602875223"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_gravel_03" ID="{E0473A8E-D8CE-42C2-B13F-29023A9BB06B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_gravel_04" ID="{7346F8EB-EBB1-4A4B-90FC-D714B838E063}" ShortID="330399081">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_gravel_04" ID="{C1EBF800-A826-4504-97E5-208DBD08628E}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0574824782576153"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.128088019495487"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>player_fs_gravel_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="408966741"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_gravel_04" ID="{C1EBF800-A826-4504-97E5-208DBD08628E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_gravel_05" ID="{72083402-C2F2-4C46-A6A1-C2AF47183331}" ShortID="929171778">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-200</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_gravel_05" ID="{9C32F606-EA8F-4D51-8B08-FB44ABF612E4}">
+													<Language>SFX</Language>
+													<AudioFile>player_fs_gravel_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="20555204"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_gravel_05" ID="{9C32F606-EA8F-4D51-8B08-FB44ABF612E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="player_fs_gravel_06" ID="{F4D2A88A-2BE3-4617-8FC0-9D2DEC93615D}" ShortID="508718798">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-150</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3026FC91-88BD-429A-B5A7-B0AB72FE70A8}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_fs_gravel_06" ID="{F6151D70-F7AC-4B99-A079-DFB752FFBA60}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.002"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00447716843474799"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0043367659424216"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>player_fs_gravel_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="168077195"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="player_fs_gravel_06" ID="{F6151D70-F7AC-4B99-A079-DFB752FFBA60}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="player_fs_gravel" ID="{A69482B7-422B-4B9D-B68D-9D16F0032B78}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="player_fs_grass" ID="{654599B7-E6D4-44D5-8AB1-D227021A8CAC}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="gravel" ID="{34F6BC2C-7E25-443A-B2ED-DEFD027D58C9}"/>
+										<ItemList>
+											<ItemRef Name="player_fs_gravel" ID="{A69482B7-422B-4B9D-B68D-9D16F0032B78}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="grass" ID="{0100D04C-364C-4CB2-AAEA-10DD421BD8D8}"/>
+										<ItemList>
+											<ItemRef Name="player_fs_grass" ID="{654599B7-E6D4-44D5-8AB1-D227021A8CAC}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<Sound Name="player_dash" ID="{A29A0545-E1B9-4983-AED1-7B1A796CA673}" ShortID="1063034488">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="player_dash" ID="{FF5AD65D-0F61-4EC0-BA3B-6DC6DF7414C5}">
+									<Language>SFX</Language>
+									<AudioFile>player_dash.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="954387430"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="player_dash" ID="{FF5AD65D-0F61-4EC0-BA3B-6DC6DF7414C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="player_death" ID="{CD8377EC-B993-4BC1-AB64-84C7295287D0}" ShortID="328435178">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="player_death" ID="{6C5A4A55-871E-4C7E-B920-890A36FCCD4C}">
+									<Language>SFX</Language>
+									<AudioFile>player_death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="278359908"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="player_death" ID="{6C5A4A55-871E-4C7E-B920-890A36FCCD4C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="player_jump" ID="{A32183ED-ED06-41B1-B152-7352C0483D8A}" ShortID="828495238">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="player_jump" ID="{114932C6-D755-42CB-B862-0698C982D67E}">
+									<Language>SFX</Language>
+									<AudioFile>player_jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="954311714"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="player_jump" ID="{114932C6-D755-42CB-B862-0698C982D67E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="player_walljump_slide_loop" ID="{0A112CE9-A2FF-4176-9AB0-5556D6C5771E}" ShortID="319494125">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="player_walljump_slide_loop_02" ID="{1F3EDDE2-3ED0-46FD-8400-3A9D07CB0EFD}">
+									<Language>SFX</Language>
+									<AudioFile>player_walljump_slide_loop_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="634822657"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="player_walljump_slide_loop_02" ID="{1F3EDDE2-3ED0-46FD-8400-3A9D07CB0EFD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="enemy" ID="{F53EE6B8-558D-4E8F-B00C-B7A000B51706}" ShortID="10100003">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="enemy_attack_swordslash" ID="{EC8F1A2B-75F5-4944-9EF1-80196D51664C}" ShortID="713506873">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="enemy_attack_swordslash_01" ID="{79129062-5436-4EF6-99F2-028030E53864}" ShortID="941022826">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enemy_attack_swordslash_01" ID="{2B43221C-F2B0-48A6-AF08-5FAB015C48C9}">
+											<Language>SFX</Language>
+											<AudioFile>enemy_attack_swordslash_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="924134250"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="enemy_attack_swordslash_01" ID="{2B43221C-F2B0-48A6-AF08-5FAB015C48C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="enemy_attack_swordslash_02" ID="{95E30B1F-831B-44EE-AEAC-DCDDCD9EB83C}" ShortID="9302073">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enemy_attack_swordslash_02" ID="{D8F447FF-F3D1-4344-A597-C4648B7A2A37}">
+											<Language>SFX</Language>
+											<AudioFile>enemy_attack_swordslash_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="127555650"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="enemy_attack_swordslash_02" ID="{D8F447FF-F3D1-4344-A597-C4648B7A2A37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="enemy_attack_swordslash_03" ID="{58E674CC-D2D0-4C0D-AE78-07F7EBB0EA4A}" ShortID="291036208">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enemy_attack_swordslash_03" ID="{0849DD66-71E3-41C5-902B-291061BFC6F1}">
+											<Language>SFX</Language>
+											<AudioFile>enemy_attack_swordslash_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="80134937"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="enemy_attack_swordslash_03" ID="{0849DD66-71E3-41C5-902B-291061BFC6F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="enemy_fs" ID="{A42DE04C-8FA1-4ECE-B0A2-828C0574A907}" ShortID="94626046">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-300</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="enemy_fs_01" ID="{29D20D70-6FB0-40CB-B7E0-39BEC3F27224}" ShortID="547028040">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enemy_fs_01" ID="{B1BD25C6-BC6B-4EFC-B151-062580EDC903}">
+											<Language>SFX</Language>
+											<AudioFile>enemy_fs_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="110112855"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="enemy_fs_01" ID="{B1BD25C6-BC6B-4EFC-B151-062580EDC903}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="enemy_fs_02" ID="{B986023E-DF04-4811-A915-D31806757740}" ShortID="176439049">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enemy_fs_02" ID="{782D70BD-9E34-41EC-9986-741A3FED4E9B}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0414878104929604"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.113973094401079"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>enemy_fs_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="845660640"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="enemy_fs_02" ID="{782D70BD-9E34-41EC-9986-741A3FED4E9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="enemy_fs_04" ID="{1FE81263-9F1C-411D-914B-D28DD437DCA2}" ShortID="563467605">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enemy_fs_04" ID="{9B02C015-D992-48BF-8ADB-0AC48F1E48B9}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0293478260869565"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.104347826086957"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>enemy_fs_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5218488"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="enemy_fs_04" ID="{9B02C015-D992-48BF-8ADB-0AC48F1E48B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="enemy_fs_03" ID="{AB9E99A6-6D27-4597-91DE-9C2720FCB72A}" ShortID="877297854">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enemy_fs_03" ID="{A2A2D6A5-629C-497C-8A78-4F6C77039E11}">
+											<Language>SFX</Language>
+											<AudioFile>enemy_fs_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="160413419"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="enemy_fs_03" ID="{A2A2D6A5-629C-497C-8A78-4F6C77039E11}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="enemy_fs_05" ID="{2D1DB5E5-E29F-43EF-8164-5A5900B8A08E}" ShortID="511486079">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enemy_fs_05" ID="{569DCCD2-FF62-4004-A7E8-833BBEAE7AEA}">
+											<Language>SFX</Language>
+											<AudioFile>enemy_fs_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="83672665"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="enemy_fs_05" ID="{569DCCD2-FF62-4004-A7E8-833BBEAE7AEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="enemy_fs_06" ID="{D3A5934E-C5A0-49E3-BA6D-8AE57EB2ABA1}" ShortID="689691377">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="enemy_fs_06" ID="{7D951BD7-4118-4104-B491-4525E38DC4D7}">
+											<Language>SFX</Language>
+											<AudioFile>enemy_fs_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="141194251"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="enemy_fs_06" ID="{7D951BD7-4118-4104-B491-4525E38DC4D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="enemy_death" ID="{C7ECAE37-74C1-4FFE-A7F7-72AAFBF6B630}" ShortID="518786691">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enemy_death" ID="{2B4CBCFD-F263-44EA-90DA-00C60D6E7DDE}">
+									<Language>SFX</Language>
+									<AudioFile>enemy_death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="505812711"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="enemy_death" ID="{2B4CBCFD-F263-44EA-90DA-00C60D6E7DDE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="common" ID="{FA63A141-8BCF-45EE-BF55-69086252F9FD}" ShortID="738333038">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="hit_sword_enemy" ID="{C2C7006B-FFD1-471F-A55F-7CEEC004580B}" ShortID="624992554">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="hit_sword_enemy_01" ID="{007F86CA-BCFA-4227-8F9E-DA631EB759EE}" ShortID="656497818">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_enemy_01" ID="{41C1F7AC-89A0-4193-BCAD-CDD27BB63A5B}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_enemy_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="648429663"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_enemy_01" ID="{41C1F7AC-89A0-4193-BCAD-CDD27BB63A5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_sword_enemy_02" ID="{A9AA9EA4-43E1-43EE-8BD5-D6C3E81DD02D}" ShortID="363147180">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_enemy_02" ID="{4F4405BD-D120-466B-8873-F7628C46FBC3}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_enemy_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="171648488"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_enemy_02" ID="{4F4405BD-D120-466B-8873-F7628C46FBC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="hit_sword_grass" ID="{3ACC55F9-47D7-44B9-AC83-C61BF710895C}" ShortID="618280603">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="hit_sword_grass_01" ID="{B088D146-2B22-4987-B1DC-E299A836E3F9}" ShortID="977063963">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_grass_01" ID="{968F38F9-4322-4A34-902F-A803D9909954}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_grass_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="378516963"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_grass_01" ID="{968F38F9-4322-4A34-902F-A803D9909954}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_sword_grass_02" ID="{66AE80F7-B06E-4B7D-8CD8-056F6EAA953E}" ShortID="519896801">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_grass_02" ID="{AF9ADF35-AB2A-4529-A2D5-EA7A4DE42520}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_grass_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="701722428"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_grass_02" ID="{AF9ADF35-AB2A-4529-A2D5-EA7A4DE42520}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_sword_grass_03" ID="{38C7C22C-234E-49E4-953C-F348BA99E31C}" ShortID="403774245">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_grass_03" ID="{731736DB-473F-466B-96CE-68B9CBBCCE11}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_grass_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="167254450"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_grass_03" ID="{731736DB-473F-466B-96CE-68B9CBBCCE11}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="hit_sword_player" ID="{55723A55-5EF1-4A7D-8C90-651B0BD61708}" ShortID="156297148">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="hit_sword_player_03" ID="{EBC35DD5-56C4-4594-9DCF-53F16F127778}" ShortID="801851530">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_player_03" ID="{4A9FD6D7-7F73-4592-8F67-1CBF9471495A}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_player_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1072099985"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_player_03" ID="{4A9FD6D7-7F73-4592-8F67-1CBF9471495A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_sword_player_02" ID="{B96EE6F0-0732-45F5-819B-6560A565B1FD}" ShortID="544504845">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_player_02" ID="{33EE42F1-BD2B-41FE-AE60-E94EC83BB869}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_player_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="301105223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_player_02" ID="{33EE42F1-BD2B-41FE-AE60-E94EC83BB869}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_sword_player_01" ID="{BC65CB13-6FBA-443E-9474-ACD49297FB77}" ShortID="72873953">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_player_01" ID="{C21AA2B0-18D1-4A02-8D2C-5CF099DE038D}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_player_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="997116514"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_player_01" ID="{C21AA2B0-18D1-4A02-8D2C-5CF099DE038D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="hit_projectile" ID="{5EBCC2BA-23E4-4614-8306-2DE97E27FAA4}" ShortID="467389691">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E0F5D21B-E3FE-4565-8CCC-69244DE8631B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="hit_projectile_01" ID="{D05314C5-45FB-4AF5-8649-069ADB7BF765}" ShortID="924180409">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_projectile_01" ID="{DE957EE8-00AA-4F62-9F65-F0F703DC2314}">
+											<Language>SFX</Language>
+											<AudioFile>hit_projectile_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1046618499"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_projectile_01" ID="{DE957EE8-00AA-4F62-9F65-F0F703DC2314}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_projectile_02" ID="{13C8DDE7-5754-435B-80E8-86F0350F8672}" ShortID="1022000160">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_projectile_02" ID="{2A216099-1011-46D3-9434-FE07405B232B}">
+											<Language>SFX</Language>
+											<AudioFile>hit_projectile_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="604376969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_projectile_02" ID="{2A216099-1011-46D3-9434-FE07405B232B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="hit_sword_stone" ID="{AA1D4283-20D1-4C5D-A1BE-D41E6ED475C1}" ShortID="283633477">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="hit_sword_stone_01" ID="{D87CA0B8-D8E2-4A0F-A7DA-30E8191F20C4}" ShortID="232874895">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_stone_01" ID="{7D0A65B7-20A8-4622-92E8-0519F1C4B273}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_stone_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="143978970"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_stone_01" ID="{7D0A65B7-20A8-4622-92E8-0519F1C4B273}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_sword_stone_02" ID="{DF0D4799-41AF-4A3B-A855-148CA18584AD}" ShortID="733042511">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_sword_stone_02" ID="{46569984-77C8-462C-8970-C56E447D58D5}">
+											<Language>SFX</Language>
+											<AudioFile>hit_sword_stone_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="930887132"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_sword_stone_02" ID="{46569984-77C8-462C-8970-C56E447D58D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="attack_projectile_01" ID="{B7C80E10-95A8-450B-BADA-7C900384CC24}" ShortID="884953534">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="attack_projectile_01" ID="{E58EE4C3-98F3-476B-84D0-C3BBAEE994AA}">
+									<Language>SFX</Language>
+									<AudioFile>attack_projectile_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="281106954"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="attack_projectile_01" ID="{E58EE4C3-98F3-476B-84D0-C3BBAEE994AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hit_sword_enemy_finalhit" ID="{CAFFC1C1-BDD5-4E3A-BA3C-EC144BA8C583}" ShortID="369913226">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hit_sword_enemy_03" ID="{F7133706-43FE-4123-8A89-EFF9AE8F9C93}">
+									<Language>SFX</Language>
+									<AudioFile>hit_sword_enemy_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="275884841"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hit_sword_enemy_03" ID="{F7133706-43FE-4123-8A89-EFF9AE8F9C93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hit_sword_stone_break" ID="{F3B7B903-A2E2-43FF-B83D-B5CB535B1A9D}" ShortID="978877168">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Distance" ID="{61FF9D83-F783-4D7E-9202-CF30025BB2CF}" WorkUnitID="{EDDE6D73-5CD0-4630-B8D2-A590065CAB05}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Bus" ID="{A96879C9-2FAD-4D95-97DB-59B8A675EF27}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hit_sword_stone_03" ID="{952B6F8E-B118-4FA6-86BA-E4C80773257B}">
+									<Language>SFX</Language>
+									<AudioFile>hit_sword_stone_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="470743450"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hit_sword_stone_03" ID="{952B6F8E-B118-4FA6-86BA-E4C80773257B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="ambience" ID="{6FD915E7-1154-4532-9B0A-1CE1C7E9F1CF}" ShortID="645399807">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Environment Bus" ID="{009792CA-1249-4C8A-B5E3-06BD0926CC29}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="ambience" ID="{3757FD3E-3C6B-426C-9FAC-12CC20681AD1}" ShortID="821558440">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="amb_day" ID="{D2BBC329-D288-4A25-A113-EB8CD6D08996}" ShortID="575581620">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_day" ID="{EB7FDC5E-F976-407F-ADAC-E5C43104F73D}">
+											<Language>SFX</Language>
+											<AudioFile>amb_day.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="67574127"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_day" ID="{EB7FDC5E-F976-407F-ADAC-E5C43104F73D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="amb_night" ID="{1FB85C9A-35DF-40A6-8AED-39B0B408FEA7}" ShortID="769059264">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A27D447-E389-437F-BC0E-F511D0A349A4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8F2A53B-1AE9-4B08-8840-44772A0481E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_night" ID="{4382C58B-9338-459D-B4BB-853AA4753272}">
+											<Language>SFX</Language>
+											<AudioFile>amb_night.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546572714"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_night" ID="{4382C58B-9338-459D-B4BB-853AA4753272}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="day_night" ID="{E70A6B75-3720-4593-B845-98A1F17321CE}" ShortID="392603583">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="amb_RTPC" ID="{B8214EE2-CDC7-4F6B-BF56-66F552E95BF0}" WorkUnitID="{A1878022-EA52-48F4-B215-9455F358152B}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="amb_day" ID="{D2BBC329-D288-4A25-A113-EB8CD6D08996}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>-8.5</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>29.8427188425926</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="amb_night" ID="{1FB85C9A-35DF-40A6-8AED-39B0B408FEA7}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>17.7788299537037</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>42</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

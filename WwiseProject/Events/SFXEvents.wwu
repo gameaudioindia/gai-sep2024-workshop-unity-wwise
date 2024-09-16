@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE8C6239-CD7C-45AC-9D14-E162FD543184}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="SFXEvents" ID="{AE8C6239-CD7C-45AC-9D14-E162FD543184}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="player_attack_swordslash" ID="{85515492-A8B3-4291-A067-41DF5DE8FCCE}">
+					<ChildrenList>
+						<Action Name="" ID="{54F80BF7-778F-49CA-A7DE-6DBC60C45B0E}" ShortID="1048105886">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_attack_swordslash" ID="{B87651C7-E4B2-4BB5-B182-678A243B24B2}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambience" ID="{F755E4AE-EA25-4A78-9CB1-F555ED0387B5}">
+					<ChildrenList>
+						<Action Name="" ID="{B4B8EE70-6440-4419-8D55-F487FD141A4A}" ShortID="160441623">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience" ID="{3757FD3E-3C6B-426C-9FAC-12CC20681AD1}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="movement_grass" ID="{6AEAF88A-A4DF-4D76-882C-B6CEFA555456}">
+					<ChildrenList>
+						<Action Name="" ID="{D7336CA7-43AE-437A-9473-71EC049008BD}" ShortID="498818638">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_movement_grass" ID="{CD8936A2-CE5A-480F-AD39-FE2706524820}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_walljump_land" ID="{AA6BE8F4-48A8-40A4-B405-EEBD6FBB4657}">
+					<ChildrenList>
+						<Action Name="" ID="{C0B86AA0-05D6-4210-9100-D3ACFDEA5562}" ShortID="990519728">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_walljump_land" ID="{F901EBB3-AC18-4887-A35F-67493715EFA5}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hit_sword_stone" ID="{89E31B10-2A74-40A2-9E1D-50FCAD793875}">
+					<ChildrenList>
+						<Action Name="" ID="{65F35E61-0E97-4B14-86BB-1E38968E1706}" ShortID="848694813">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_sword_stone" ID="{AA1D4283-20D1-4C5D-A1BE-D41E6ED475C1}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hit_sword_stone_break" ID="{DEBDB57D-51C2-47EB-884C-ACE79D3FDE70}">
+					<ChildrenList>
+						<Action Name="" ID="{FD7E95DE-3E5F-43CF-8BED-4774C493FD61}" ShortID="899049408">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_sword_stone_break" ID="{F3B7B903-A2E2-43FF-B83D-B5CB535B1A9D}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_player_walljump_slide_loop" ID="{F323C3F7-44C6-4752-8F18-2FCE2958A819}">
+					<ChildrenList>
+						<Action Name="" ID="{8992400B-DD78-490B-B1B5-07D199AE6B79}" ShortID="141686003">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_walljump_slide_loop" ID="{0A112CE9-A2FF-4176-9AB0-5556D6C5771E}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="attack_projectile_01" ID="{102B3BD4-1654-48A3-B798-707EFEDD0418}">
+					<ChildrenList>
+						<Action Name="" ID="{FCB8CF4C-A320-4A36-AC28-560299076752}" ShortID="538761138">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="attack_projectile_01" ID="{B7C80E10-95A8-450B-BADA-7C900384CC24}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_fs" ID="{AC2C5725-21F1-4E82-B829-82A737C4DA86}">
+					<ChildrenList>
+						<Action Name="" ID="{87F49AA8-F768-4596-96D2-1284B3FF930F}" ShortID="1000133919">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_fs" ID="{0F50D3E7-B515-4617-A61C-FBA5F99CFC46}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_jump" ID="{D0BC186D-E314-41E1-83FF-E5B81B098831}">
+					<ChildrenList>
+						<Action Name="" ID="{977EBC00-BEED-42E7-8A93-970BF4D98E03}" ShortID="251991367">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_jump" ID="{A32183ED-ED06-41B1-B152-7352C0483D8A}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hit_sword_player" ID="{5E1E8429-F301-454F-B7C4-E309F1CB0379}">
+					<ChildrenList>
+						<Action Name="" ID="{3FF8C485-A6FA-443D-967C-32CB76AE2B7D}" ShortID="811203778">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_sword_player" ID="{55723A55-5EF1-4A7D-8C90-651B0BD61708}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hit_sword_enemy" ID="{1ABB5428-7268-48A5-A56E-4A5ED0968A5E}">
+					<ChildrenList>
+						<Action Name="" ID="{5218E7B0-06B3-40AF-80B8-97BFDDE3F9F8}" ShortID="448387356">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_sword_enemy" ID="{C2C7006B-FFD1-471F-A55F-7CEEC004580B}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_death" ID="{95185042-054B-4ED6-B3AD-2DE98A93BA44}">
+					<ChildrenList>
+						<Action Name="" ID="{C86F019E-05B5-4287-805D-DE5C7ECE2538}" ShortID="815555755">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_death" ID="{CD8377EC-B993-4BC1-AB64-84C7295287D0}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemy_death" ID="{C48DF35B-7F1E-409A-9A40-7AB11BD0C927}">
+					<ChildrenList>
+						<Action Name="" ID="{C17DA905-9E27-4E3F-A95D-BAB629F23F67}" ShortID="111378773">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemy_death" ID="{C7ECAE37-74C1-4FFE-A7F7-72AAFBF6B630}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hit_sword_enemy_finalhit" ID="{0C22030D-095D-4A3B-A888-10E83094032F}">
+					<ChildrenList>
+						<Action Name="" ID="{336200FD-E00F-44DB-9D56-86A75B637647}" ShortID="696984313">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_sword_enemy_finalhit" ID="{CAFFC1C1-BDD5-4E3A-BA3C-EC144BA8C583}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemy_fs" ID="{C709B5B0-6015-4FC3-8EEF-2F38196C4AA6}">
+					<ChildrenList>
+						<Action Name="" ID="{DB9CD5CA-E117-44E5-B1AD-02D1EF206C64}" ShortID="538412672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemy_fs" ID="{A42DE04C-8FA1-4ECE-B0A2-828C0574A907}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_jump_land" ID="{B489EC7C-58AE-438C-9582-4202D966FAA0}">
+					<ChildrenList>
+						<Action Name="" ID="{90000995-735B-490D-9FC1-8BCD8545F1DC}" ShortID="939963683">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_jump_land" ID="{C83CC494-B8A8-477A-A93B-D8B9D6594A35}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hit_projectile" ID="{7A88C70E-5F6C-4ADE-81BD-76FF43993A34}">
+					<ChildrenList>
+						<Action Name="" ID="{464DBE25-F366-4199-A463-A89086F57D63}" ShortID="397681096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_projectile" ID="{5EBCC2BA-23E4-4614-8306-2DE97E27FAA4}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_dash" ID="{4E450279-A2B3-41C2-819B-906F181C9647}">
+					<ChildrenList>
+						<Action Name="" ID="{9330BC9E-3926-4BAC-B205-369137BC8367}" ShortID="450079729">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_dash" ID="{A29A0545-E1B9-4983-AED1-7B1A796CA673}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hit_sword_grass" ID="{54DF7A2C-9197-4EA7-A70D-05FD54DF115A}">
+					<ChildrenList>
+						<Action Name="" ID="{CDD2AF14-035E-4871-8CD4-DF24266AB081}" ShortID="700453108">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_sword_grass" ID="{3ACC55F9-47D7-44B9-AC83-C61BF710895C}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemy_attack_swordslash" ID="{3252AD81-E7FD-4BB7-9F0E-B3AEDEB3E400}">
+					<ChildrenList>
+						<Action Name="" ID="{E62B67F7-A64C-4491-9425-E9990C98191F}" ShortID="605917226">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemy_attack_swordslash" ID="{EC8F1A2B-75F5-4944-9EF1-80196D51664C}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_walljump_slide_loop" ID="{0F9B8808-782A-4B0F-8F30-CBA1C2BA4D04}">
+					<ChildrenList>
+						<Action Name="" ID="{31AD32B8-8A13-4C02-AEA5-3C94A142FD39}" ShortID="659398652">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_walljump_slide_loop" ID="{0A112CE9-A2FF-4176-9AB0-5556D6C5771E}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{95673EF0-9229-47A9-8D50-AA385FA7A4F3}" ShortID="913515359">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_walljump_land" ID="{F901EBB3-AC18-4887-A35F-67493715EFA5}" WorkUnitID="{C8D44590-9E46-4D41-88BF-3371114971E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

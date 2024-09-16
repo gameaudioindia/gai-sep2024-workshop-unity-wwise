@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D4A0D66-F201-48CB-B30D-72B65592FB33}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{0D4A0D66-F201-48CB-B30D-72B65592FB33}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="music_switch" ID="{DD55BA1C-CEB9-44DA-8F1D-30D2CA5F2F6E}">
+					<ChildrenList>
+						<Switch Name="low" ID="{927BD190-A86E-4B33-A80E-62002EDF6DA8}"/>
+						<Switch Name="high" ID="{F5C0E5FB-6290-40BF-A0E5-00C3246C41C5}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="fsSwitch" ID="{0ED4E868-A96F-4DE3-A191-187746B86DC4}">
+					<ChildrenList>
+						<Switch Name="grass" ID="{0100D04C-364C-4CB2-AAEA-10DD421BD8D8}"/>
+						<Switch Name="gravel" ID="{34F6BC2C-7E25-443A-B2ED-DEFD027D58C9}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
