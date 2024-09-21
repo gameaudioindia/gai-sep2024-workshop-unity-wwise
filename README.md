@@ -2,7 +2,11 @@
 
 Project files for the workshop on Unity + Wwise:
 
-WWISE PROJECT Folder is included in the Github Repo.
+Wwise Version: 2023.1.6
+Unity Version: 2018 and Higher
+
+WWISE PROJECT Folder: [WwiseProject](WwiseProject)
+
 
 UNITY PROJECT LINK: https://assetstore.unity.com/packages/2d/characters/metroidvania-controller-166731
 
