@@ -20,3 +20,9 @@ UNITY PROJECT LINK: https://assetstore.unity.com/packages/2d/characters/metroidv
 6. In the editor of the new empty project, go to Window > Package Manager and make sure to select 'My Assets' in the Packages dropdown.
 7. Select the Metroidvania Controller and Download it.
 8. Click Import to import the unity project in your current project.
+
+This project is curated by Tanay Jain. Connect with Tanay here:
+[Instagram](https://www.instagram.com/tanay.wav/)
+[LinkedIn](https://www.linkedin.com/in/tanay-jain-185438259/)
+[Twitter/X](https://x.com/eigo_wav)
+Discord: @eigo.wav
